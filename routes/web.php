@@ -39,4 +39,4 @@ $router->get('/mahasiswa', ['uses' => 'MahasiswaController@getAllMahasiswa']);
 $router->get('/mahasiswa/profile', ['middleware' => 'jwt.auth','uses' => 'MahasiswaController@getAllMahasiswabyProfile']);
 $router->get('/mahasiswa/{nim}', ['uses' => 'MahasiswaController@getAllMahasiswabyNim']);
 
-//
+//tes
